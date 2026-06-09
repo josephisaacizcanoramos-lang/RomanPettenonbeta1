@@ -9,9 +9,9 @@ export default defineConfig({
     tsconfigPaths(),
     tailwindcss(),
     tanstackStart({
-      router: { entry: "src/router.ts" },
-      client: { entry: "src/client.tsx" },
-      server: { entry: "src/server.ts" },
+      router: { entry: "router" },
+      client: { entry: "client" },
+      server: { entry: "server" },
     }),
     react(),
   ],
