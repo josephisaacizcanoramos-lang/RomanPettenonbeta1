@@ -12,6 +12,9 @@ export default defineConfig({
       router: { entry: "router" },
       client: { entry: "client" },
       server: { entry: "server" },
+      deployment: {
+        preset: "vercel",
+      },
     }),
     react(),
   ],
